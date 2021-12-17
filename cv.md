@@ -28,9 +28,20 @@ I will make every effort to finish these courses with dignity and find a job in 
 
 ```
 String.prototype.toJadenCase = function () {
-  return this.split(' ')
-						 .map(a => a[0]
-						 .toUpperCase() + a.slice(1))
-						 .join(' ');
+  return this.split(' ').map(a => a[0].toUpperCase() + a.slice(1)).join(' ');
 };
 ```
+
+### Education:
+
+- [CS50 YouTube lectures](https://www.youtube.com/channel/UCcabW7890RKJzL968QWEykA)
+- HTML/CSS Tutorials
+- JavaScript Basics on [learn.javascript.ru](https://learn.javascript.ru/)
+  (in progress)
+- RS School Course «JavaScript/Front-end. Stage 0» (in progress)
+  > **Keep learning**
+
+### Languages:
+
+- Russian - Native
+- English - A2
