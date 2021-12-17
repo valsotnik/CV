@@ -15,3 +15,22 @@ After that I worked on several diverse jobs, at the moment I am an expert of the
 Now I want to change direction, the IT sphere has always been interesting to me and the time has come.
 I have good communication skills, I am stress-resistant, I work well in a team and am determined to absorb new knowledge.
 I will make every effort to finish these courses with dignity and find a job in this direction.
+
+### Skills and Proficiency:
+
+- HTML, CSS
+- JavaScript Basics
+- Git, GitHub
+- VS Code
+- Figma
+
+### Code example:
+
+```
+String.prototype.toJadenCase = function () {
+  return this.split(' ')
+						 .map(a => a[0]
+						 .toUpperCase() + a.slice(1))
+						 .join(' ');
+};
+```
