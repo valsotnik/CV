@@ -6,6 +6,7 @@
 - **E-mail**: *cmvaltime@gmail.com*
 - **Telegram**: _@cm_val92_
 - **GitHub**: [valsotnik](https://github.com/valsotnik)
+- **Discord**: _@valsotnik_
 
 ### About Myself:
 
