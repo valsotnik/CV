@@ -1,12 +1,143 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
 	<meta charset="UTF-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title>CV</title>
+	<title>Valery Sotnik</title>
+	<link rel="stylesheet" href="style.css">
 </head>
+
 <body>
-	
+	<div class="cv-wrapper">
+		<div class="container">
+			<div class="left-col">
+				<header>
+					<figure>
+						<img src="img/profile.jpg" alt="My_photo">
+					</figure>
+					<h1>Valery Sotnik</h1>
+				</header>
+				<main>
+					<section class="cv-contacts">
+						<h2>Contacts</h2>
+						<ul>
+							<li>
+								<img class="contacts-icon" src="img/phone.svg" alt="Phone_Icon" width="35" height="35">
+								<span>+375447877011</span>
+							</li>
+							<li>
+								<img class="contacts-icon" src="img/mail.svg" alt="Mail_Icon" width="35" height="35">
+								<span>cmvaltime@gmail.com</span>
+							</li>
+							<li>
+								<img class="contacts-icon" src="img/telegram.svg" alt="Telegram_Icon" width="35" height="35">
+								<span>@cm_val92</span>
+							</li>
+							<li>
+								<img class="contacts-icon" src="img/discord.svg" alt="Discord_Icon" width="35" height="35">
+								<span>valsotnik#8481</span>
+							</li>
+							<li>
+								<img class="contacts-icon" src="img/github.svg" alt="Github_Icon" width="35" height="35">
+								<a href="https://github.com/valsotnik">
+									<span>valsotnik</span>
+								</a>
+							</li>
+						</ul>
+					</section>
+					<section class="cv-skills">
+						<h2>Skills</h2>
+						<ul>
+							<li>
+								<img class="skills-icon" src="img/html5.svg" alt="HTML_Icon" width="35" height="35">
+								<span>HTML,CSS</span>
+							</li>
+							<li>
+								<img class="skills-icon" src="img/jscript.svg" alt="JS_Icon" width="35" height="35">
+								<span>JavaScript Basics</span>
+							</li>
+							<li>
+								<img class="skills-icon" src="img/git.svg" alt="Git_Icon" width="35" height="35">
+								<span>Git,GitHub</span>
+							</li>
+							<li>
+								<img class="skills-icon" src="img/vs-code.svg" alt="VS_Icon" width="35" height="35">
+								<span>VSCode</span>
+							</li>
+							<li>
+								<img class="skills-icon" src="img/figma.svg" alt="Figma_Icon" width="35" height="35">
+								<span>Figma</span>
+							</li>
+						</ul>
+					</section>
+					<section class="cv-lang">
+						<h2>Languages</h2>
+						<ul>
+							<li>
+								<img class="plus-icon" src="img/plus.svg" alt="Plus_Icon" width="35" height="35">
+								<span>Russian - Native</span>
+							</li>
+							<li>
+								<img class="plus-icon" src="img/plus.svg" alt="Plus_Icon" width="35" height="35">
+								<span>English - A2</span>
+							</li>
+						</ul>
+					</section>
+				</main>
+			</div>
+			<div class="right-col">
+				<section class="cv-myself-info">
+					<h3>About Myself</h3>
+					<p>I’m 29 years old. <br>
+						I graduated from the Belarusian-Russian University in Mogilev, Republic Of Belarus,
+						branch - mechanical engineering. <br>
+						After that I worked on several diverse jobs, at the moment I am an expert of the Belarusian
+						Chamber of Commerce and Industry. <br>
+						Now I want to change direction, the IT sphere has always been interesting to me and the time has
+						come. <br>
+						I have good communication skills, I am stress-resistant, <br>
+						I work well in a team and am determined to absorb new knowledge. <br>
+						I will make every effort to finish these courses with dignity and find a job in this direction.
+					</p>
+				</section>
+				<section class="cv-education">
+					<h3>Education</h3>
+					<ul>
+						<li>
+							<a href="https://www.youtube.com/channel/UCcabW7890RKJzL968QWEykA">CS50 YouTube lectures</a>
+						</li>
+						<li>HTML/CSS Tutorials</li>
+						<li>JavaScript Basics on <a href="https://learn.javascript.ru/">learn.javascript.ru</a>(in progress)
+						</li>
+						<li>RS Schools Course «JavaScript/Front-end. Stage 0» (in progress)</li>
+					</ul>
+				</section>
+				<section class="cv-code-example">
+					<h3>Code Example</h3>
+					<pre>
+						<code>
+String.prototype.toJadenCase = function () {
+	return this.split(' ').map(a => a[0].toUpperCase() + a.slice(1)).join(' ');
+	};
+						</code>
+					</pre>
+				</section>
+			</div>
+		</div>
+		<footer>
+			<a class="github" href="https://github.com/valsotnik">
+				<img class="github-icon" src="img/github.svg" alt="Github Icon" width="35" height="35">
+				<span>Visit my GitHub</span>
+			</a>
+			<p>© 2021</p>
+			<a href="https://rs.school/js/">
+				<img src="img/rsschool.svg" alt="Rsschool Icon" width="73" height="26">
+			</a>
+		</footer>
+	</div>
+
 </body>
+
 </html>
