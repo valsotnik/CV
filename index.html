@@ -40,12 +40,6 @@
 									<img class="contacts-icon" src="img/discord.svg" alt="Discord_Icon" width="35" height="35">
 									<span>valsotnik#8481</span>
 								</li>
-								<li>
-									<img class="contacts-icon" src="img/github.svg" alt="Github_Icon" width="35" height="35">
-									<a href="https://github.com/valsotnik">
-										<span>valsotnik</span>
-									</a>
-								</li>
 							</ul>
 						</section>
 						<section class="cv-skills">
@@ -92,7 +86,7 @@
 			<div class="right-col">
 				<section class="cv-myself-info">
 					<h3>About Myself</h3>
-					<p>I’m 29 years old. <br>
+					<p>I’m 30 years old. <br>
 						I graduated from the Belarusian-Russian University in Mogilev, Republic Of Belarus,
 						branch - mechanical engineering. <br>
 						After that I worked on several diverse jobs, at the moment I am an expert of the Belarusian
@@ -111,20 +105,38 @@
 							<a href="https://www.youtube.com/channel/UCcabW7890RKJzL968QWEykA">CS50 YouTube lectures</a>
 						</li>
 						<li>HTML/CSS Tutorials</li>
-						<li>JavaScript Basics on <a href="https://learn.javascript.ru/">learn.javascript.ru</a>(in progress)
+						<li>JavaScript Basics on <a href="https://learn.javascript.ru/">learn.javascript.ru</a>
 						</li>
-						<li>RS Schools Course «JavaScript/Front-end. Stage 0» (in progress)</li>
+						<li>RS School <a href="https://app.rs.school/certificate/xxz476ci">«JavaScript/Front-end. Stage 0» complete</a> </li>
 					</ul>
 				</section>
 				<section class="cv-code-example">
 					<h3>Code Example</h3>
+					<a href="https://www.codewars.com/kata/56b5afb4ed1f6d5fb0000991">"Reverse or rotate?" Codewars Kata</a>
 					<pre>
 						<code>
-String.prototype.toJadenCase = function () {
-	return this.split(' ').map(a => a[0].toUpperCase() + a.slice(1)).join(' ');
-	};
+	function revrot(str, sz) {
+		if (sz < 1 || sz > str.length) return '';
+								
+		let rotate  = x => x.slice(1) + x.slice(0, 1);
+		let reverse = x => x.split('').reverse().join('');
+		let cubes = x => x.split('').reduce((a, b) => a + Math.pow(b,3), 0); 
+							
+		return str.match(new RegExp('.{' + sz + '}', 'g'))
+							.map(x => cubes(x) % 2 ? rotate(x) : reverse(x))
+						 	.join('');
+	}
 						</code>
 					</pre>
+				</section>
+				<section class="cv-projects">
+					<h3>Projects</h3>
+					<ul>
+						<li><a href="https://portfolio-landing-project.netlify.app">Portfolio Landing Projec</a>t</li>
+						<li><a href="https://custom-video-cmval.netlify.app">Custom Video Player</a></li>
+						<li><a href="https://chuck-norris-quote-generator.netlify.app">Random Quote's Generator</a></li>
+						<li><a href="https://ttt-game-play.netlify.app">Tic Tac Toe Game</a></li>
+					</ul>
 				</section>
 			</div>
 		</div>
@@ -133,13 +145,13 @@ String.prototype.toJadenCase = function () {
 				<img class="github-icon" src="img/github.svg" alt="Github Icon" width="35" height="35">
 				<span>Visit my GitHub</span>
 			</a>
-			<p>© 2021</p>
+			<p>© 2022</p>
 			<a href="https://rs.school/js/">
 				<img src="img/rsschool.svg" alt="Rsschool Icon" width="73" height="26">
 			</a>
 		</footer>
 	</div>
-
+<script src="script.js"></script>
 </body>
 
 </html>
