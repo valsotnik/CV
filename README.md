@@ -1,2 +1,2 @@
-- https://valsotnik.github.io/rsschool-cv/cv
-- https://valsotnik.github.io/rsschool-cv/
+## My CV Link
+- https://valsotnik.github.io/CV/
