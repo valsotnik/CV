@@ -13,6 +13,10 @@
 	text-decoration: none;
 }
 
+html {
+	scroll-behavior: smooth;
+}
+
 body {
 	background: #bef2ff;
 	font-size: 20px;
@@ -22,7 +26,7 @@ body {
 .cv-wrapper {
 	display: flex;
 	flex-direction: column;
-	width: 1024px;
+	width: 1200px;
 	margin: 0 auto;
 	background: #fff;
 }
@@ -32,11 +36,11 @@ body {
 }
 
 .left-col {
-	width: 35%;
+	width: 30%;
 }
 
 .right-col {
-	width: 65%;
+	width: 70%;
 }
 
 /* Left Column */
@@ -106,8 +110,7 @@ main img {
 	color: var(--h-color);
 }
 
-.cv-education li,
-.cv-projects li {
+.cv-education li {
 	margin-left: 30px;
 }
 
@@ -142,4 +145,55 @@ footer a {
 
 .github img {
 	margin-right: 10px;
+}
+
+.cv-code-example img {
+	width: 90%;
+}
+
+.projects-wrapper {
+	display: flex;
+	justify-content: space-around;
+}
+
+.projects-title {
+	text-align: center;
+	margin-bottom: 10px;
+	text-align: center;
+	color: #ffffff;
+	background-color: var(--h-color);
+}
+
+.navigation {
+	background-color: var(--h-color);
+
+}
+
+.menu {
+	padding: 10px;
+}
+
+.menu-list {
+	list-style: none;
+	display: flex;
+	justify-content: space-between;
+}
+
+.menu-item {
+	color: #fff;
+	cursor: pointer;
+}
+
+.menu-item a {
+	text-decoration: none;
+	color: #fff;
+}
+
+.apps li,
+.sites li {
+	list-style: none;
+}
+
+section {
+	transition: all 0.2s ease;
 }
